@@ -1,0 +1,117 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  
+ background-image: url(../../pages//logo\ banner/916394.png);
+  
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+}
+.logotop{
+  width:80px ;
+  height:75px;
+  margin-top: 20px;
+}
+.logotop:hover{
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+  transition: 2.7s;
+}
+.topbarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.993);
+  cursor: pointer;
+}
+
+
+.topbarCenter {
+  flex: 60;
+}
+
+.searchbar {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 3px 5px#06381ff6;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 3.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(216, 216, 216, 0.993);
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topbarIcons {
+  display: flex;
+width: 100px;
+height: 25px;
+padding-left: 130px;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 14px;
+  height: 14px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  
+}
+
+.topbarImg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding-right: 100px;
+  margin: 40%;
+  object-fit: cover;
+  cursor: pointer;
+}

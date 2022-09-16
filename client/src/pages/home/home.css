@@ -1,0 +1,14 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    
+}
+.homeContainer >h1{
+    color: #387E8F;
+background-color: #f3f3f3ad;
+
+border-radius: 40px;
+margin-left: 0px;
+text-align: center;
+font-size: 28px;
+}
